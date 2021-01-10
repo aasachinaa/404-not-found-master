@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+.error-msg {
+    margin: 2rem 4rem;
+    font-weight: bold;
+}
+
+.scarecrow {
+    height: 25rem;
+    width: 25rem;
+    margin: 5rem 3rem 1rem 3rem;
+}
+
+.img-section {
+    width: 50%;
+    float: left;
+}
+
+.not-found-section {
+    margin-top: 4.5rem;
+    width: 50%;
+    float: right;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.paragraph {
+    font-size: large;
+    width: 19rem;
+}
+
+.homepage-btn {
+    font-family: inherit;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    outline: none;
+}
+
+.footer-txt {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 45rem;
+    left: 40%;
+}
+
+@media (max-width: 900px) {
+    body {
+        margin: 0;
+    }
+
+    .error-msg {
+        margin: 1rem;
+    }
+
+    .scarecrow {
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-section {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .not-found-section {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .paragraph {
+        width: fit-content;
+        position: initial;
+        text-align: center;
+    }
+
+    .footer-txt {
+        position: absolute;
+        top: 60rem;
+        left: 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+
+    .error-msg {
+        margin: 1rem;
+    }
+
+    .scarecrow {
+        height: 15rem;
+        width: 15rem;
+        margin: 3rem 0 0 0;
+        padding: 0;
+    }
+
+    .img-section {
+        float: none;
+        width: 100%;
+
+    }
+
+    .not-found-section {
+        float: none;
+        width: 80%;
+        margin-left: 2rem;
+    }
+
+    .heading {
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+    .paragraph {
+        width: 20rem;
+        text-align: left;
+    }
+
+    .homepage-btn {
+        display: flex;
+        justify-content: left;
+        margin-top: 3.5rem;
+    }
+
+    .footer-txt {
+        position: absolute;
+        top: 52rem;
+        left: 12%;
+    }
+
+    @media (max-width: 400px) {
+        .heading {
+            font-size: 2rem;
+        }
+
+        .footer-txt {
+            position: absolute;
+            font-size: small;
+            top: 50rem;
+            left: 20%;
+        }
+    }
+}
