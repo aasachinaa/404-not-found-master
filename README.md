@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://404-page-not-found-challanges-io.netlify.app">
+    <a href="https://error404-not-f0und.netlify.app/">
       Demo
     </a>   
     <span> | </span>
